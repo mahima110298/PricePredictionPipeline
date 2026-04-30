@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.DS_Store
+.claude/
+
+# Trained weights and vector stores (rebuild with seed_chroma.py / training scripts)
+*.pth
+*.pkl
+products_vectorstore/
+chroma.sqlite3
+
+# Local agent memory snapshots
+memory.local.json
+
+# HuggingFace cache
+.cache/
